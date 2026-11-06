@@ -1,5 +1,6 @@
 import React from 'react';
 import { Printer, Sparkles, BookOpen, PenTool, CheckCircle } from 'lucide-react';
+import logoImage from '../../logo.png';
 
 export type MainTabType = 'rules' | 'quiz' | 'applied';
 
@@ -17,7 +18,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, onPrint
         {/* Brand Logo & Name */}
         <div className="flex items-center gap-2.5 shrink-0">
           <img 
-            src="/logo.png" 
+            src={logoImage} 
             alt="إتقان English Logo" 
             className="h-10 w-auto object-contain" 
           />
