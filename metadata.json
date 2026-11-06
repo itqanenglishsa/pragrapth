@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix ELIE1201 Writing Quiz Master Guide",
+  "description": "Comprehensive interactive guide and quiz preparation portal for ELIE1201 Writing Assessment (Great Writing 2 \u0026 Evolve 2) at Umm Al-Qura University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
